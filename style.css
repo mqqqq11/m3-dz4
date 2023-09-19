@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: cursive;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    padding: 40px 0 100px;
+}
+
+.person0 {
+    display: flex;
+    gap: 45px;
+    border: 3px solid rgb(111, 179, 183);
+    background-color: rgb(92, 147, 150, 0.250);
+    padding: 20px;
+}
+.person1 {
+    display: flex;
+    gap: 45px;
+    border: 3px solid rgb(255, 143, 94);
+    background-color: rgb(237, 113, 57, 0.250);
+    padding: 20px;
+}
+.person2 {
+    display: flex;
+    gap: 45px;
+    border: 3px solid rgb(234, 86, 94);
+    background-color: rgb(225, 53, 64, 0.250);
+    padding: 20px;
+}
+.person3 {
+    display: flex;
+    gap: 45px;
+    border: 3px solid rgb(100, 151, 218);
+    background-color: rgba(66, 123, 189, 0.250);
+    padding: 20px;
+}
+
+span {
+    width: 300px;
+}
+img {
+    width: 200px;
+}
+
+.show {
+    background-color: green;
+}
